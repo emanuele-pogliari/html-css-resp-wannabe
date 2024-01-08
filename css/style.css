@@ -129,17 +129,22 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+
+/* Task bonus */
+@media screen and (max-width:1160px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* In questo caso la query non è necessaria */
+/* @media screen and (max-width:768px) {} */
+
 @media screen and (max-width:480px) {
     .row {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        width: 100%;
-    }
-
-    .container {
-        width: 100%;
     }
 
     .steps .col,
@@ -160,19 +165,5 @@ img {
         margin-bottom: 0;
 
         background-color: #222222;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .container {
-        width: 100%;
-    }
-}
-
-
-/* Task bonus */
-@media screen and (max-width:1160px) {
-    .container {
-        width: 100%;
     }
 }
