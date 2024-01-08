@@ -151,6 +151,8 @@ img {
     .lessons .col,
     .why-us .col {
         margin-bottom: 3rem;
+
+        width: 100%;
     }
 
     section.steps {
