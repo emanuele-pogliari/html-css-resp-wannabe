@@ -145,10 +145,7 @@ img {
     .lessons .col,
     .why-us .col {
         width: 100%;
-    }
-
-    .col:nth-of-type(2) {
-        padding: 60px;
+        margin-bottom: 3rem;
     }
 
     section.steps {
@@ -157,7 +154,7 @@ img {
     }
 
     section.why-us {
-        padding-top: 48px;
+        padding-top: 3rem;
         background-color: #222222;
         margin-bottom: 0;
     }
