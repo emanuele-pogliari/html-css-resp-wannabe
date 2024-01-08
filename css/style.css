@@ -165,3 +165,11 @@ img {
         width: 100%;
     }
 }
+
+
+/* Task bonus */
+@media screen and (max-width:1160px) {
+    .container {
+        width: 100%;
+    }
+}
